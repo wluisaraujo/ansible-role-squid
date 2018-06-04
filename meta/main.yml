@@ -11,5 +11,7 @@ galaxy_info:
   - name: Debian
     versions:
     - all
-  galaxy_tags: [squid,proxy]
+  galaxy_tags: 
+    - squid 
+    - proxy
 dependencies: []
