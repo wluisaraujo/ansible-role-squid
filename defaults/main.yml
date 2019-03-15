@@ -1,2 +1,3 @@
 ---
 # defaults file for squid
+service_name: squid
