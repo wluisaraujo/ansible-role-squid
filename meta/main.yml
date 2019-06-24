@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: iac-ansible-squid
   author: w.luis.araujo
   description: "Install Squid (Proxy Server)"
   company: LUSAR | wluisaraujo.github.io
