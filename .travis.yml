@@ -13,7 +13,7 @@ services:
 
 env:
   global:
-    - ROLE_NAME: iac-ansible-squid
+    - ROLE_NAME: squid
     - ANSIBLE_ACTION_WARNINGS: "False"
     - ANSIBLE_COMMAND_WARNINGS: "False"
     - ANSIBLE_DEPRECATION_WARNINGS: "False"
@@ -59,7 +59,7 @@ install:
 
 
  # Install ansible role
- - ansible-galaxy install wluisaraujo.iac-ansible-squid
+ - ansible-galaxy install wluisaraujo.squid
 
 script:
  # Basic role syntax check
