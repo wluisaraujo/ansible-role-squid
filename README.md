@@ -1,4 +1,4 @@
-[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-Squid-blue.svg)](https://galaxy.ansible.com/wluisaraujo/iac-ansible-squid) [![Build Status](https://travis-ci.org/wluisaraujo/iac-ansible-squid.svg?branch=master)](https://travis-ci.org/wluisaraujo/iac-ansible-squid)
+[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-Squid-blue.svg)](https://galaxy.ansible.com/wluisaraujo/iac-ansible-squid) [![Build Status](https://travis-ci.org/wluisaraujo/ansible-role-squid.svg?branch=master)](https://travis-ci.org/wluisaraujo/ansible-role-squid)
 ---
 # IaC: with [Ansible](https://www.ansible.com) role to install and configure [Squid Proxy](www.squid-cache.org/)
 ------------
@@ -32,7 +32,7 @@ Example Playbook
     - name: value
   roles:
     - squid
-...s
+...
 ```
 
 ----------------
