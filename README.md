@@ -13,6 +13,14 @@ Requirements
 
  *
 
+Installation
+------------
+
+```console
+vagrant@localhost:~$ ansible-galaxy install wluisaraujo.squid
+vagrant@localhost:~$ ansible-galaxy install -r wluisaraujo.squid/requirements.txt
+```
+
 Role Variables
 --------------
 
