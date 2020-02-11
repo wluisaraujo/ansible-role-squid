@@ -1,0 +1,29 @@
+---
+version: '3'
+services:
+  sonarqube:
+    image: debian
+    container_name: squid
+    hostname: squid
+    privileged: true
+    tty: true
+    restart: always
+    volumes:
+      - ./files/squid.conf:/etc/squid/squid.conf
+    ports:
+      - "3128:3128"
+#    expose:
+#      - "3128/tcp"
+#    ulimits:
+#      nproc:
+#        soft: 4096
+#        hard: 8192
+#      nofile:
+#        soft: 10240
+#        hard: 65536
+    environment:
+      LANGUAGE: en_US:en
+      LC_ALL: en_US.UTF-8
+      LC_MESSAGES: en_US.UTF-8
+      LANG: C.UTF-8
+...
